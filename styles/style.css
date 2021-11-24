@@ -1,0 +1,48 @@
+/* *{
+  border: solid 2px red;
+} */
+
+body{
+  margin: 0px;
+  background-color: grey;
+}
+
+a:hover{
+  background-color:black;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color:white;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.navbar{
+  height:64px;
+  width: auto;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: #292d2d;
+  color: white;
+  font-size: 2em;
+}
+
+.navbar .menu{
+  margin-left: auto
+}
+
+.content{
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 200px;
+}
